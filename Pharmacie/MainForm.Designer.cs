@@ -100,6 +100,7 @@
             this.panel1.Controls.Add(this.lblUtilisateurConnecte);
             this.panel1.Controls.Add(this.btnToggleMenu);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 122);
@@ -109,11 +110,11 @@
             // 
             this.lblUtilisateurConnecte.AutoSize = true;
             this.lblUtilisateurConnecte.BackColor = System.Drawing.Color.Transparent;
-            this.lblUtilisateurConnecte.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUtilisateurConnecte.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUtilisateurConnecte.ForeColor = System.Drawing.Color.Black;
             this.lblUtilisateurConnecte.Location = new System.Drawing.Point(68, 24);
             this.lblUtilisateurConnecte.Name = "lblUtilisateurConnecte";
-            this.lblUtilisateurConnecte.Size = new System.Drawing.Size(44, 21);
+            this.lblUtilisateurConnecte.Size = new System.Drawing.Size(52, 25);
             this.lblUtilisateurConnecte.TabIndex = 3;
             this.lblUtilisateurConnecte.Text = "User";
             // 
